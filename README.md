@@ -98,9 +98,11 @@ from `operators.json` and delete its file under `wells/`.
 - The result table is parsed by header name (`File No`, `API No`, `Well Status`, `Location`,
   `Operator`, `Well Name`, `Field`). If the DMR changes the page layout the parser raises instead of
   silently filling the wrong column.
-- Files are rewritten wholesale on every run; the Action commits `wells/` only when something
-  changed. Since `fetched` is the time of the last successful fetch, a normal day's commit is just
-  those timestamps.
+- Files are rewritten wholesale on every run, but the Action commits `wells/` only when a well
+  actually changed (a new, renamed, re-statused or dropped well). A run whose only difference is
+  the `fetched` / `generated` timestamps is discarded with "No well changes." So `fetched` in the
+  committed files is the "data as of" date: the fetch that last found a change. The well list is
+  still checked daily; the date just does not move while nothing changes.
 - Schedule: 12:00 UTC daily (06:00 Central Standard Time, 07:00 Central Daylight Time).
 
 Run it by hand with Python 3.8+ and no extra packages:

@@ -26,11 +26,18 @@ jobs:
           DMR_WELLS_REPO: ${{ github.repository }}   # named in the User-Agent
         run: python3 fetch_wells.py                  # stdlib only, no pip install needed
 
-      - name: Commit wells/ if changed
+      - name: Commit wells/ if a well changed
+        # The "fetched" and "generated" timestamps move on every run. Commit only when some other
+        # line of wells/ changed; otherwise drop the timestamp-only rewrite so the history stays
+        # quiet and "fetched" in the committed files is the fetch that last changed the data.
         run: |
           git add wells
-          if git diff --cached --quiet; then
-            echo "No changes in wells/."
+          if ! git diff --cached -- wells \
+               | grep -E '^[+-]' \
+               | grep -vE '^(\+\+\+|---) ' \
+               | grep -qvE '^[+-][[:space:]]*"(fetched|generated)": "'; then
+            echo "No well changes."
+            git restore --staged --worktree wells
             exit 0
           fi
           git config user.name "github-actions[bot]"
