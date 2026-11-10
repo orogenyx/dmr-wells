@@ -1,0 +1,39 @@
+name: Fetch ND DMR wells
+
+on:
+  schedule:
+    # 12:00 UTC = 06:00 US Central Standard Time (winter) / 07:00 Central Daylight Time (summer).
+    # GitHub cron is UTC only and does not follow daylight saving.
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: fetch-wells
+  cancel-in-progress: false
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Fetch well lists
+        env:
+          DMR_WELLS_REPO: ${{ github.repository }}   # named in the User-Agent
+        run: python3 fetch_wells.py                  # stdlib only, no pip install needed
+
+      - name: Commit wells/ if changed
+        run: |
+          git add wells
+          if git diff --cached --quiet; then
+            echo "No changes in wells/."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Update wells data $(date -u +%Y-%m-%d)"
+          git push
