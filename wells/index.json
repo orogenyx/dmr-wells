@@ -1,12 +1,12 @@
 {
-  "generated": "2026-11-10T17:44:44Z",
+  "generated": "2026-11-10T17:50:13Z",
   "operators": [
     {
       "operator": "Phoenix Operating LLC",
       "slug": "phoenix-operating-llc",
       "file": "wells/phoenix-operating-llc.json",
       "wells": 293,
-      "fetched": "2026-11-10T17:44:44Z"
+      "fetched": "2026-11-10T17:50:13Z"
     }
   ]
 }
