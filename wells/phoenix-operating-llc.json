@@ -1,6 +1,6 @@
 {
   "operator": "Phoenix Operating LLC",
-  "fetched": "2026-11-11T19:18:37Z",
+  "fetched": "2026-11-12T19:37:07Z",
   "source": "https://www.dmr.nd.gov/oilgas/findwellsvw.asp",
   "wells": [
     {
@@ -541,7 +541,7 @@
       "api": "33-053-10874",
       "well": "BRENDA FED 32-5-8-17 4H",
       "operator": "Phoenix Operating LLC",
-      "status": "LOC",
+      "status": "DRL",
       "location": "NENE 32-146-98",
       "county": "MCKENZIE",
       "field": "CHARLIE BOB",
@@ -1685,7 +1685,7 @@
       "api": "33-105-06676",
       "well": "Haefele 34-35-36 1HF",
       "operator": "Phoenix Operating LLC",
-      "status": "Confidential",
+      "status": "A",
       "location": "NWSW 34-159-101",
       "county": "WILLIAMS",
       "field": "ZAHL",
