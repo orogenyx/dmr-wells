@@ -1,6 +1,6 @@
 {
   "operator": "Phoenix Operating LLC",
-  "fetched": "2026-11-12T19:37:07Z",
+  "fetched": "2026-11-14T17:42:51Z",
   "source": "https://www.dmr.nd.gov/oilgas/findwellsvw.asp",
   "wells": [
     {
@@ -2066,6 +2066,58 @@
       "location": "NENW 35-156-90",
       "county": "MOUNTRAIL",
       "field": "STANLEY",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43486",
+      "api": "33-053-10931",
+      "well": "JOHN 29-20-17 2H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "NENE 32-146-98",
+      "county": "MCKENZIE",
+      "field": "RANCH CREEK",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43485",
+      "api": "33-053-10930",
+      "well": "JOHN 29-20-17 3H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "NENE 32-146-98",
+      "county": "MCKENZIE",
+      "field": "RANCH CREEK",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43484",
+      "api": "33-053-10929",
+      "well": "JOHN 29-20-17 4H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "NENE 32-146-98",
+      "county": "MCKENZIE",
+      "field": "RANCH CREEK",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43483",
+      "api": "33-053-10928",
+      "well": "JOHN 29-20-17 5H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "NENE 32-146-98",
+      "county": "MCKENZIE",
+      "field": "RANCH CREEK",
       "footages": "",
       "latitude": null,
       "longitude": null
