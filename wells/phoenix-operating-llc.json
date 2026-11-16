@@ -1,6 +1,6 @@
 {
   "operator": "Phoenix Operating LLC",
-  "fetched": "2026-11-14T17:42:51Z",
+  "fetched": "2026-11-16T21:42:01Z",
   "source": "https://www.dmr.nd.gov/oilgas/findwellsvw.asp",
   "wells": [
     {
@@ -112,7 +112,7 @@
       "api": "33-061-05608",
       "well": "AFSETH 34-3-10 2HF",
       "operator": "Phoenix Operating LLC",
-      "status": "Confidential",
+      "status": "A",
       "location": "NENW 34-158-91",
       "county": "MOUNTRAIL",
       "field": "KITTLESON SLOUGH",
@@ -125,7 +125,7 @@
       "api": "33-061-05609",
       "well": "AFSETH 34-3-10 3HF",
       "operator": "Phoenix Operating LLC",
-      "status": "Confidential",
+      "status": "A",
       "location": "NENW 34-158-91",
       "county": "MOUNTRAIL",
       "field": "KITTLESON SLOUGH",
@@ -138,7 +138,7 @@
       "api": "33-061-05610",
       "well": "AFSETH 34-3-10 4HF",
       "operator": "Phoenix Operating LLC",
-      "status": "Confidential",
+      "status": "A",
       "location": "NENW 34-158-91",
       "county": "MOUNTRAIL",
       "field": "KITTLESON SLOUGH",
