@@ -1,6 +1,6 @@
 {
   "operator": "Phoenix Operating LLC",
-  "fetched": "2026-11-16T21:42:01Z",
+  "fetched": "2026-11-17T20:31:38Z",
   "source": "https://www.dmr.nd.gov/oilgas/findwellsvw.asp",
   "wells": [
     {
@@ -3301,6 +3301,58 @@
       "location": "LOT4 2-159-103",
       "county": "WILLIAMS",
       "field": "GRENORA",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43494",
+      "api": "33-013-02094",
+      "well": "REBA 18-7-6 1H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESE 18-160-91",
+      "county": "BURKE",
+      "field": "DIMOND",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43495",
+      "api": "33-013-02095",
+      "well": "REBA 18-7-6 2H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESE 18-160-91",
+      "county": "BURKE",
+      "field": "DIMOND",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43496",
+      "api": "33-013-02096",
+      "well": "REBA 18-7-6 3H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESE 18-160-91",
+      "county": "BURKE",
+      "field": "DIMOND",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43497",
+      "api": "33-013-02097",
+      "well": "REBA 18-7-6 4H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESE 18-160-91",
+      "county": "BURKE",
+      "field": "DIMOND",
       "footages": "",
       "latitude": null,
       "longitude": null
