@@ -1,6 +1,6 @@
 {
   "operator": "Phoenix Operating LLC",
-  "fetched": "2026-11-17T20:31:38Z",
+  "fetched": "2026-11-18T20:02:45Z",
   "source": "https://www.dmr.nd.gov/oilgas/findwellsvw.asp",
   "wells": [
     {
@@ -3128,7 +3128,7 @@
       "api": "33-061-05586",
       "well": "Pladson 33-28-21 #4H",
       "operator": "Phoenix Operating LLC",
-      "status": "Confidential",
+      "status": "A",
       "location": "SESE 33-158-91",
       "county": "MOUNTRAIL",
       "field": "KITTLESON SLOUGH",
@@ -3141,7 +3141,7 @@
       "api": "33-061-05626",
       "well": "Pladson 33-28-21 #5H",
       "operator": "Phoenix Operating LLC",
-      "status": "Confidential",
+      "status": "A",
       "location": "SESE 33-158-91",
       "county": "MOUNTRAIL",
       "field": "KITTLESON SLOUGH",
@@ -3193,7 +3193,7 @@
       "api": "33-061-05587",
       "well": "Pladson 4-9 #4H",
       "operator": "Phoenix Operating LLC",
-      "status": "Confidential",
+      "status": "A",
       "location": "SESE 33-158-91",
       "county": "MOUNTRAIL",
       "field": "KITTLESON SLOUGH",
@@ -3206,7 +3206,7 @@
       "api": "33-061-05616",
       "well": "Pladson 4-9 #5HF-LL",
       "operator": "Phoenix Operating LLC",
-      "status": "Confidential",
+      "status": "A",
       "location": "SESE 33-158-91",
       "county": "MOUNTRAIL",
       "field": "KITTLESON SLOUGH",
