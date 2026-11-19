@@ -1,6 +1,6 @@
 {
   "operator": "Phoenix Operating LLC",
-  "fetched": "2026-11-18T20:02:45Z",
+  "fetched": "2026-11-19T20:01:39Z",
   "source": "https://www.dmr.nd.gov/oilgas/findwellsvw.asp",
   "wells": [
     {
@@ -2308,6 +2308,58 @@
       "file": "43427",
       "api": "33-053-10911",
       "well": "MACHETE 1 SWD",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESW 11-146-99",
+      "county": "MCKENZIE",
+      "field": "RANCH CREEK",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43498",
+      "api": "33-053-10932",
+      "well": "MACHETE 14-23-26-35 1H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESW 11-146-99",
+      "county": "MCKENZIE",
+      "field": "RANCH CREEK",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43499",
+      "api": "33-053-10933",
+      "well": "MACHETE 14-23-26-35 2H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESW 11-146-99",
+      "county": "MCKENZIE",
+      "field": "RANCH CREEK",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43500",
+      "api": "33-053-10934",
+      "well": "MACHETE 14-23-26-35 3H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESW 11-146-99",
+      "county": "MCKENZIE",
+      "field": "RANCH CREEK",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43501",
+      "api": "33-053-10935",
+      "well": "MACHETE 14-23-26-35 4H",
       "operator": "Phoenix Operating LLC",
       "status": "LOC",
       "location": "SESW 11-146-99",
