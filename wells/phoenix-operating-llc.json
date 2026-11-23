@@ -1,6 +1,6 @@
 {
   "operator": "Phoenix Operating LLC",
-  "fetched": "2026-11-21T18:45:38Z",
+  "fetched": "2026-11-23T23:27:54Z",
   "source": "https://www.dmr.nd.gov/oilgas/findwellsvw.asp",
   "wells": [
     {
@@ -766,6 +766,71 @@
       "location": "NWNW 27-162-95",
       "county": "DIVIDE",
       "field": "NOONAN",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43514",
+      "api": "33-023-01935",
+      "well": "CALICO 9-4-33 1H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESW 9-162-95",
+      "county": "DIVIDE",
+      "field": "BAUKOL NOONAN",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43513",
+      "api": "33-023-01934",
+      "well": "CALICO 9-4-33 2H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESW 9-162-95",
+      "county": "DIVIDE",
+      "field": "BAUKOL NOONAN",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43512",
+      "api": "33-023-01933",
+      "well": "CALICO 9-4-33 3H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESW 9-162-95",
+      "county": "DIVIDE",
+      "field": "BAUKOL NOONAN",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43511",
+      "api": "33-023-01932",
+      "well": "CALICO 9-4-33 4H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESW 9-162-95",
+      "county": "DIVIDE",
+      "field": "BAUKOL NOONAN",
+      "footages": "",
+      "latitude": null,
+      "longitude": null
+    },
+    {
+      "file": "43510",
+      "api": "33-023-01931",
+      "well": "CALICO 9-4-33 5H",
+      "operator": "Phoenix Operating LLC",
+      "status": "LOC",
+      "location": "SESW 9-162-95",
+      "county": "DIVIDE",
+      "field": "BAUKOL NOONAN",
       "footages": "",
       "latitude": null,
       "longitude": null
