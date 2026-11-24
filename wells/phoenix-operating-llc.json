@@ -1,6 +1,6 @@
 {
   "operator": "Phoenix Operating LLC",
-  "fetched": "2026-11-23T23:27:54Z",
+  "fetched": "2026-11-24T21:58:01Z",
   "source": "https://www.dmr.nd.gov/oilgas/findwellsvw.asp",
   "wells": [
     {
@@ -3427,7 +3427,7 @@
       "api": "33-013-02094",
       "well": "REBA 18-7-6 1H",
       "operator": "Phoenix Operating LLC",
-      "status": "LOC",
+      "status": "PNS",
       "location": "SESE 18-160-91",
       "county": "BURKE",
       "field": "DIMOND",
@@ -3440,7 +3440,7 @@
       "api": "33-013-02095",
       "well": "REBA 18-7-6 2H",
       "operator": "Phoenix Operating LLC",
-      "status": "LOC",
+      "status": "PNS",
       "location": "SESE 18-160-91",
       "county": "BURKE",
       "field": "DIMOND",
@@ -3453,7 +3453,7 @@
       "api": "33-013-02096",
       "well": "REBA 18-7-6 3H",
       "operator": "Phoenix Operating LLC",
-      "status": "LOC",
+      "status": "PNS",
       "location": "SESE 18-160-91",
       "county": "BURKE",
       "field": "DIMOND",
@@ -3466,7 +3466,7 @@
       "api": "33-013-02097",
       "well": "REBA 18-7-6 4H",
       "operator": "Phoenix Operating LLC",
-      "status": "LOC",
+      "status": "PNS",
       "location": "SESE 18-160-91",
       "county": "BURKE",
       "field": "DIMOND",
